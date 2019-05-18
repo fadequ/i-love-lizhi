@@ -1,0 +1,105 @@
+body {
+  font: 1em/1.6 "Avenir Next", Avenir, sans-serif; }
+
+img[data-src][src*='data:image'] {
+  background: rgba(0, 0, 0, 0.04); }
+
+a {
+  color: #ffc107; }
+  a:hover {
+    color: #ffc107; }
+
+blockquote {
+  font-family: serif;
+  font-style: normal; }
+
+.uk-light .uk-logo {
+  color: white; }
+
+.tm-container {
+  max-width: 1032px; }
+
+.uk-navbar {
+  margin-top: 32px; }
+
+.hero {
+  height: 512px; }
+
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 {
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-weight: bold; }
+
+.footnote {
+  font-size: 0.75rem;
+  font-weight: normal;
+  vertical-align: super; }
+
+.footnotes {
+  font-size: 0.875em;
+  color: rgba(0, 0, 0, 0.4); }
+
+.ludwig {
+  padding-left: 1em;
+  border-left: 0.2em solid #fff4d3;
+  font-weight: 200; }
+
+.highlight {
+  position: relative;
+  z-index: 1; }
+
+.highlight::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: -0.25em;
+  right: -0.25em;
+  background-color: #ffc107;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  -webkit-transform: scaleY(0.1);
+          transform: scaleY(0.1);
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out; }
+
+.highlight:hover::before {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+  background-color: #ffc107; }
+
+.tm-github-button span {
+  height: 28px; }
+
+.tm-responsive-gutter-width {
+  margin-left: -24px; }
+
+.tm-responsive-gutter-width > * {
+  padding-left: 24px; }
+
+@media only screen and (max-width: 959px) {
+  .hero {
+    height: 420px; }
+  .tm-responsive-gutter-width {
+    margin-left: -16px; }
+  .tm-responsive-gutter-width > * {
+    padding-left: 16px; } }
+
+@media only screen and (max-width: 639px) {
+  .uk-background-cover {
+    background-position: 35% 50%; }
+  .hero {
+    height: 375px; }
+  h1 {
+    font-size: 2em; }
+  .uk-navbar {
+    margin-top: 20px; }
+  .uk-text-lead {
+    font-size: 1.25em; }
+  .uk-container {
+    padding-left: 24px;
+    padding-right: 24px; }
+  .tm-responsive-gutter-width {
+    margin-left: -8px; }
+  .tm-responsive-gutter-width > * {
+    padding-left: 8px; } }
