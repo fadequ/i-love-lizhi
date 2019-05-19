@@ -1,1 +1,4 @@
-![[ilovelizhi.com](https://ilovelizhi.com/)](banner.jpg)
+![我爱李志](banner.jpg)
+
+> 我真的看见微弱的光在前面  
+> 没有骗你
