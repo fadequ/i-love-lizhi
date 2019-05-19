@@ -9,6 +9,16 @@ img[data-src][src*='data:image'] {
   background: rgba(0,0,0,0.04);
 }
 
+h1 {
+  font-size: 3em;
+  line-height: 1;
+}
+
+.uk-logo svg {
+  width: 48px;
+  height: 48px;
+}
+
 a {
   color: $accent-color;
   &:hover {
@@ -97,6 +107,15 @@ blockquote {
 
 @media only screen and (max-width: 959px) {
   
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  .uk-logo svg {
+    width: 40px;
+    height: 40px;
+  }
+
   .hero {
     height: 420px;
   }
@@ -123,6 +142,11 @@ blockquote {
 
   h1 {
     font-size: 2em;
+  }
+  
+  .uk-logo svg {
+    width: 32px;
+    height: 32px;
   }
   
   .uk-navbar {
