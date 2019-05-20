@@ -46,6 +46,20 @@ blockquote {
   font-size: 0.875em;
   color: rgba(0, 0, 0, 0.4); }
 
+.brooks {
+  position: relative;
+  font-size: 2em;
+  padding-left: 1em; }
+  .brooks:before {
+    content: '\201C';
+    position: absolute;
+    top: -0.4em;
+    left: -0.05em;
+    color: #fff4d3;
+    font-size: 4em;
+    line-height: 1;
+    z-index: -1; }
+
 .ludwig {
   padding-left: 1em;
   border-left: 0.2em solid #fff4d3;
@@ -88,6 +102,8 @@ blockquote {
 @media only screen and (max-width: 959px) {
   .hero {
     height: 420px; }
+  .brooks {
+    font-size: 1.75em; }
   .tm-responsive-gutter-width {
     margin-left: -16px; }
   .tm-responsive-gutter-width > * {
@@ -105,6 +121,8 @@ blockquote {
     height: 32px; }
   .uk-navbar {
     margin-top: 20px; }
+  .brooks {
+    font-size: 1.25em; }
   .uk-text-lead {
     font-size: 1.25em; }
   .uk-container {
